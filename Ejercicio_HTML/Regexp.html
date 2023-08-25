@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regexp phone validation</title>
+  </head>
+  <body>
+    <h1>Validacion de telefono mediante las expresiones regulares</h1>
+    <form>
+      <input
+        type="text"
+        name="mobile"
+        class="form-control"
+        placeholder="Enter 9 digits of your phone"
+        pattern="^(?:(?:7|0\d|\+34\d)\d{8})$"
+        required
+        required
+        oninvalid="setCustomValidity('Por favor, ingrese un numero validos')"
+        oninput="setCustomValidity('')"
+      />
+      <input type="submit" value="Validate" />
+    </form>
+  </body>
+</html>

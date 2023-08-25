@@ -1,0 +1,53 @@
+table {
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  border-collapse: collapse;
+  width: 100vh;
+  background-color: antiquewhite;
+  
+}
+h1{
+  text-align: center;
+  background-color: rgb(1,191,254);
+}
+.caja{
+  border: 5px solid black;
+ border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  width: 100vh;
+}
+
+th, td {
+  border-left: 1px solid black;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+  padding: 5px;
+  
+}
+
+.titulo {
+  border: none;
+  font-weight: bold;
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+span{
+  text-align: center;
+  background-color: blue;
+}
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3) {
+border-top: none;
+}
+
+.iva{
+  background-color: rgb(1,191,254);
+}

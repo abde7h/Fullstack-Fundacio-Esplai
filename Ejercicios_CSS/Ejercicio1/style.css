@@ -1,0 +1,24 @@
+p::selection {
+  background-color: blueviolet;
+}
+
+body {
+  background-color: rgb(253, 223, 173);
+}
+
+h1 {
+  color: red;
+  display:inline
+}
+h1:hover {
+  color: orange;
+}
+.columnas {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 2px solid red;
+}
+
+.p:first-child:first-child {
+  padding-top: 0px;
+}

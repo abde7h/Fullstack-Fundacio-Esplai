@@ -1,0 +1,258 @@
+body{
+  margin: 0px;
+}
+/*---------------HEADER---------------*/
+header{
+  display: flex;
+ height: 10vh;
+ width:100%;
+}
+.containter-header1{
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+  margin-right: 1px;
+}
+.container-header2{
+  height: 100%;
+  width: 50%;
+  background-color: green;
+}
+
+/*---------------MAIN--------------*/
+main{
+  height: 68vh;
+  width: 100%;
+}
+
+.container-principal{
+  height: 60%;
+  width: 100%;
+  background-color: yellow;
+  margin-top: 1px;
+}
+section{
+  height: 40%;
+  width: 100%;
+  margin-top: 1px;
+  display: grid;
+  
+  grid-template-columns: repeat(3,1fr)
+}
+.container-section1{
+  height: 100%;
+  background-color: blue;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.container-section2{
+  background-color: green;
+  margin-right: 1px;
+}
+.container-section3{
+  background-color: red;
+}
+
+/*--------------FOOTER--------------*/
+
+footer{
+  height: 21.5vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top:1px;
+}
+
+.container-footer1{
+  background-color: gray;
+  margin-right: 1px;
+}
+.container-footer2{
+  background-color: gray;
+  margin-right: 1px;
+}
+.container-footer3{
+  margin-right: 1px;
+  background-color: gray;
+}
+.container-footer4{
+  background-color: gray;
+}
+
+/*-------------------MEDIAQUERIES------------------------*/
+
+/*------------DESKTOP------------*/
+
+/*------------TABLET------------*/
+@media(width < 768px){
+
+  /*---------------HEADER---------------*/
+  header{
+  height: 10vh;
+  width:100%;
+  display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .containter-header1{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    margin-right: 1px;
+  }
+  .container-header2{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+  }
+
+  /*---------------MAIN--------------*/
+  main{
+    height: 68vh;
+    width: 100%;
+  }
+
+  .container-principal{
+    height: 60%;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 1px;
+  }
+  section{
+    height: 40%;
+    width: 100%;
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .container-section1{
+    height: 100%;
+    background-color: blue;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-section2{
+    background-color: green;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .container-section3{
+    background-color: red;
+    margin-bottom: 1px;
+  }
+
+  /*--------------FOOTER--------------*/
+
+  footer{
+    height: 21.5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:1px;
+  }
+
+  .container-footer1{
+    background-color: gray;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-footer2{
+    background-color: gray;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-footer3{
+    margin-right: 1px;
+    background-color: gray;
+  }
+  .container-footer4{
+    background-color: gray;
+  }
+}
+/*------------MOBILE------------*/
+@media(width <= 340px  ){
+
+    /*---------------HEADER---------------*/
+  header{
+  height: 10vh;
+  width:100%;
+  display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .containter-header1{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    margin-right: 1px;
+  }
+  .container-header2{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+  }
+
+  /*---------------MAIN--------------*/
+  main{
+    height: 68vh;
+    width: 100%;
+  }
+
+  .container-principal{
+    height: 60%;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 1px;
+  }
+  section{
+    height: 40%;
+    width: 100%;
+    margin-top: 1px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .container-section1{
+    height: 100%;
+    background-color: blue;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-section2{
+    background-color: green;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .container-section3{
+    background-color: red;
+    margin-bottom: 1px;
+  }
+
+  /*--------------FOOTER--------------*/
+
+  footer{
+    height: 21.5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top:1px;
+  }
+
+  .container-footer1{
+    background-color: gray;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-footer2{
+    background-color: gray;
+    margin-right: 1px;
+    margin-bottom: 1px;
+  }
+  .container-footer3{
+    margin-right: 1px;
+    background-color: gray;
+    margin-bottom: 1px;
+  }
+  .container-footer4{
+    background-color: gray;
+  }
+}

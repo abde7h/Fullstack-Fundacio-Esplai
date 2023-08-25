@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+}
+/*circulo 1*/
+.container1 {
+display: flex;
+justify-content: center;
+}
+
+.color-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/*Circulo 2*/
+.container2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.red1 {
+  background-color: red;
+}
+
+.blue1 {
+  background-color: blue;
+}
+
+.result1 {
+  background-color: rgb(255,0,254);
+}
+
+.suma{
+  font-size: large;
+ font-weight: bold;
+}
+/*Circulo 3*/
+.container3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.blue2 {
+  background-color: blue;
+}
+
+.green2 {
+  background-color: green;
+}
+
+.result2 {
+  background-color: rgb(0,254,255);
+}
+
+/*Circulo 4*/
+.container4{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.green3 {
+  background-color: green;
+}
+
+.red3 {
+  background-color: red;
+}
+
+.result3 {
+  background-color: rgb(255,255,0);
+}

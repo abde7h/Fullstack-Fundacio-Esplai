@@ -1,0 +1,296 @@
+/*-------------DESKTOP------------------*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+p{
+justify-content: center;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  color: white;
+}
+
+.header {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  background-color: rgb(14, 22, 41);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menu {
+  grid-column: 4 / span 12;
+  grid-row: 1 / span 1;
+  background-color: rgb(240, 60, 80);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.hero {
+  grid-column: 1 / span 12;
+  grid-row: 2 / span 5;
+  display: flex;
+  background-color: rgb(79, 134, 199);
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  grid-column: 1 / span 6;
+  grid-row: 7/ span 4;
+  background-color: rgb(36, 52, 75);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.sidebar {
+  grid-column: 7 / span 3;
+  grid-row: 7 / span 4;
+  background-color: white;
+  text-align: center;
+}
+
+.image {
+  grid-column: 10 / span 3;
+  grid-row: 7 / span 2;
+  background-color: rgb(193, 227, 229);
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.extra {
+  grid-column: 10 / span 3;
+  grid-row: 9 / span 2;
+  background-color: rgb(79, 188, 151);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.banner {
+  grid-column: 1 / span 12;
+  grid-row: 11 / span 4;
+  background-color: rgb(255, 209, 106);
+  text-align: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+/*--------------TABLET----------------*/
+
+@media ( width <= 768px)
+{
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  p{
+  justify-content: center;
+  }
+
+  .container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    color: white;
+  }
+
+  .header {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+    background-color: rgb(14, 22, 41);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu {
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 7;
+    background-color: rgb(240, 60, 80);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .hero {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 4;
+    display: flex;
+    background-color: rgb(79, 134, 199);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    grid-column: 4 / span 9;
+    grid-row: 6/ span 3;
+    background-color: rgb(36, 52, 75);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .sidebar {
+    display: none;
+    grid-column: 7 / span 3;
+    grid-row: 7 / span 4;
+    background-color: white;
+    text-align: center;
+  }
+
+  .image {
+    grid-column: 10 / span 3;
+    grid-row: 11 / span 2;
+    background-color: rgb(193, 227, 229);
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .extra {
+    grid-column: 4 / span 6;
+    grid-row: 11 / span 2;
+    background-color: rgb(79, 188, 151);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .banner {
+    grid-column: 4 / span 9;
+    grid-row: 9 / span 2;
+    background-color: rgb(255, 209, 106);
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media ( width <= 425PX)
+{
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  p{
+  justify-content: center;
+  }
+
+  .container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+  }
+
+  .header {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    background-color: rgb(14, 22, 41);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    background-color: rgb(240, 60, 80);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .hero {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+    display: flex;
+    background-color: rgb(79, 134, 199);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    grid-column: 1 / span 2;
+    grid-row: 5/ span 2;
+    background-color: rgb(36, 52, 75);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .sidebar {
+    display: none;
+    grid-column: 1 / span 2;
+    grid-row: 8 / span 4;
+    background-color: white;
+    text-align: center;
+  }
+
+  .image {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 2;
+    background-color: rgb(193, 227, 229);
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .extra {
+    grid-column: 1 / span 2;
+    grid-row: 9 / span 2;
+    background-color: rgb(79, 188, 151);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .banner {
+    grid-column: 1 / span 2;
+    grid-row: 11 / span 2;
+    background-color: rgb(255, 209, 106);
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}

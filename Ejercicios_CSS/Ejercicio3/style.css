@@ -1,0 +1,21 @@
+body{
+  background-color: antiquewhite;
+}
+.caja{
+  border: 1px solid black;
+  margin: 10px;
+  background-color: rgb(239,239,239);
+  padding:5px;
+  font-weight:bold;
+  width: 50vh;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.caja:nth-child(even) {
+  text-align: center;
+}
+
+.caja:last-child{
+  text-align: end;
+}
